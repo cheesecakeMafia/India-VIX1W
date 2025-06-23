@@ -11,12 +11,11 @@ import requests
 import pandas as pd
 import numpy as np
 import math
-from datetime import datetime, date
+from datetime import datetime
 from datetime import timedelta
 
 # URL to get NIFTY option chain 
 url = 'https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY'
-
 
 # Create a session and scrape the data from the NSE website
 headers = {
@@ -45,7 +44,7 @@ def option_dataframe(df):
         strike = df.iloc[i,0]
         expiry = df.iloc[i,1]
         if(df.iloc[i,-1] == 0):
-            calloi = call_coi = 0
+            call_coi = 0
         else:
             call_oi = df.iloc[i,-1]["openInterest"]
             call_coi = df.iloc[i,-1]["changeinOpenInterest"]
@@ -55,7 +54,7 @@ def option_dataframe(df):
             call_IV = df.iloc[i,-1]['impliedVolatility']
         
         if(df.iloc[i,-2] == 0):
-            putoi = put_coi = 0
+            put_coi = 0
         else:
             put_oi = df.iloc[i,-2]["openInterest"]
             put_coi = df.iloc[i,-2]["changeinOpenInterest"]
