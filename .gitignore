@@ -198,3 +198,4 @@ secrets.json
 # Temporary files
 temp/
 tmp/
+dev*/

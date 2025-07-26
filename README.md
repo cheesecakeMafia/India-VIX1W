@@ -1,12 +1,33 @@
-# India VIX1W - Weekly Volatility Index Calculator
+# ⚠️ ARCHIVED - India VIX1W - Weekly Volatility Index Calculator
 
+> **🚨 This project is archived and no longer maintained. The code is provided as-is for reference purposes only.**
+
+[![Status](https://img.shields.io/badge/status-archived-red.svg)]()
+[![Maintenance](https://img.shields.io/badge/maintained-no-red.svg)]()
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/tests-30%20passing-green.svg)](./tests/)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](./htmlcov/)
-[![Code Style](https://img.shields.io/badge/code%20style-ruff-black.svg)](https://github.com/astral-sh/ruff)
-[![Type Checking](https://img.shields.io/badge/type%20checking-mypy-blue.svg)](https://mypy.readthedocs.io/)
+
+**⚠️ DEPRECATION NOTICE:** This repository has been archived and is no longer actively maintained. While the code may still function, it is not receiving updates, bug fixes, or security patches. Use at your own risk.
+
+---
 
 A modern Python implementation of weekly VIX calculation for India NIFTY options, implementing methodologies from NSE India VIX and CBOE VIX white papers to generate volatility index on weekly expiries rather than the standard monthly methodology.
+
+## 📦 Archive Information
+
+**Last Active**: This project was last actively developed in 2024.
+
+**Reason for Archival**: This was a research project that has served its purpose. The codebase demonstrates VIX calculation methodology but is no longer being maintained or updated.
+
+**Alternatives**: 
+- For production VIX calculations, consider using established financial data providers
+- For research purposes, the code can still serve as a reference implementation
+
+**Known Issues**:
+- NSE API endpoints may change without notice
+- Dependencies are frozen and may have security vulnerabilities
+- No active support or bug fixes
 
 ## 🎯 Overview
 
@@ -211,40 +232,46 @@ Analyze:
 - Open interest patterns in weekly vs monthly options
 - Liquidity dynamics in different market conditions
 
-## 🗺️ Future Roadmap
+## 🗺️ ~~Future Roadmap~~ (Project Archived)
 
-### Planned Enhancements
+> **Note**: This project is no longer under active development. The following features were planned but will not be implemented.
 
-- **📊 Streamlit Dashboard**: Real-time visualization and historical analysis
-- **🗄️ Database Integration**: Historical VIX1W storage and backtesting
-- **📡 WebSocket Support**: Live updates with real-time data feeds
-- **🤖 ML Integration**: Pattern recognition and volatility forecasting
-- **📈 Backtesting Framework**: Strategy development and validation tools
+### ~~Planned Enhancements~~ (Cancelled)
 
-### Research Directions
+- ~~**📊 Streamlit Dashboard**: Real-time visualization and historical analysis~~
+- ~~**🗄️ Database Integration**: Historical VIX1W storage and backtesting~~
+- ~~**📡 WebSocket Support**: Live updates with real-time data feeds~~
+- ~~**🤖 ML Integration**: Pattern recognition and volatility forecasting~~
+- ~~**📈 Backtesting Framework**: Strategy development and validation tools~~
 
-- **Volatility Forecasting**: ML models using VIX1W features
-- **Cross-Market Analysis**: Compare with other global VIX indices
-- **Options Strategy Optimization**: Use VIX1W for dynamic hedging
+### ~~Research Directions~~ (Not Pursued)
+
+- ~~**Volatility Forecasting**: ML models using VIX1W features~~
+- ~~**Cross-Market Analysis**: Compare with other global VIX indices~~
+- ~~**Options Strategy Optimization**: Use VIX1W for dynamic hedging~~
 
 ## 🤝 Contributing
 
-This project welcomes contributions! The codebase has been significantly modernized and now follows professional Python development standards.
+> **⚠️ This project is archived and no longer accepting contributions.**
 
-### How to Contribute
+This repository is maintained in read-only mode for historical and reference purposes. Pull requests and issues will not be reviewed or merged.
 
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes** with proper tests
-4. **Run quality checks**: `uv run pytest && uv run ruff check && uv run mypy .`
-5. **Submit a pull request**
+If you find this code useful and want to build upon it:
+1. Fork the repository to your own account
+2. Create your own maintained version
+3. Consider crediting this original work in your project
 
-### Development Guidelines
+### For Researchers
 
-- **Python 3.12+** with full type hints
-- **100% test coverage** for new features
-- **Modern patterns**: dataclasses, f-strings, pathlib
-- **Documentation**: Clear docstrings and type annotations
+The code is available under the MIT license, so you are free to:
+- Use it as a reference implementation
+- Adapt it for your own research
+- Build upon the concepts demonstrated
+
+However, please note that:
+- No support will be provided
+- Issues will not be addressed
+- Pull requests will not be reviewed
 
 ## 📄 License
 
@@ -264,6 +291,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Note**: This is a research project for educational and analytical purposes. The original concept was developed during a holiday project and has since been modernized with professional-grade code quality, comprehensive testing, and production-ready architecture.
+**⚠️ FINAL NOTE**: This is an archived research project provided for educational and analytical purposes only. The original concept was developed during a holiday project and was modernized with professional-grade code quality, comprehensive testing, and production-ready architecture. However, it is no longer maintained.
 
-*Made with ❤️ for the quantitative finance community*
+**Status**: 🔴 **ARCHIVED - NO LONGER MAINTAINED**
+
+*This project served its purpose and is now preserved for historical reference.*
